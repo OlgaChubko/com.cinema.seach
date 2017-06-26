@@ -13,7 +13,7 @@ nconf_
 REST API METHODS
 
 **/api/allFilms
-/api/addFilm/:filmName/:filmYear/:filmFormat/:actors
+/api/addFilm/:filmName/:filmYear/:filmFormat/:actors<br>
 /api/deleteFilm/:id
 /api/findFilmById/:id
 /api/findFilmByFilmName/:filmName
