@@ -1,0 +1,14 @@
+{
+
+  "http": {
+    "httpPort" : 8080
+  },
+
+  "database": {
+    "dbUser": "app_user",
+    "dbPassword": "1111",
+    "dbBase": "cinema",
+    "dbPort" : 3306,
+    "dbUrl": "192.168.1.5"
+  }
+}
