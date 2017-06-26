@@ -1,16 +1,15 @@
-**Node JS Dependencies**
+<h2>**Node JS Dependencies**
 
-_express
-cookie-parser
-body-parser
-mysql
-nconf_
+_express_<br>
+_cookie-parser_<br>
+_body-parser_<br>
+_mysql_<br>
+_nconf_<br>
 
 
+<h2>**Cinema search REST API**
 
-**Cinema search REST API**
-
-REST API METHODS
+<h3>REST API methods
 
 **/api/allFilms<br>
 /api/addFilm/:filmName/:filmYear/:filmFormat/:actors<br>
@@ -55,6 +54,6 @@ For find film by id or actor name or film produce years request address _/api/fl
 where<br> 
 :searchParam - is film id or actor name or film produce years which you want to find<br>
 
-**Settings**
+<h2>**Settings**
 
 All project settings save in _config_properties.json_ file in resources folder.
