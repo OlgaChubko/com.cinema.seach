@@ -19,7 +19,7 @@ run _createAndPopulateDB.sql_ file
 
 **<h2>Settings</h2>**
 
-All project settings save in _config_properties.json_ file in resources folder.
+All project settings save in _config_properties.json_ file in /resources folder.
 
 **<h2>Cinema search REST API</h2>**
 
