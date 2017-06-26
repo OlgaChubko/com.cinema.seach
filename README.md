@@ -2,14 +2,30 @@
 
 _express_<br>
 _cookie-parser_<br>
+_babel-core_<br>
+_babel-polyfill_<br>
+_babel-preset-es2015_<br>
+_chai_<br>
+_chai-http_<br>
+_jade_<br>
+_supertest_<br>
 _body-parser_<br>
 _mysql_<br>
 _nconf_<br>
+
+**<h2>Setup test database</h2>**
+
+run _createAndPopulateDB.sql_ file
 
 
 **<h2>Cinema search REST API</h2>**
 
 <h3>REST API methods</h3>
+
+
+**<h2>Settings</h2>**
+
+All project settings save in _config_properties.json_ file in resources folder.
 
 **/api/allFilms<br>
 /api/addFilm/:filmName/:filmYear/:filmFormat/:actors<br>
@@ -53,7 +69,3 @@ Support request types(GET)<br>
 For find film by id or actor name or film produce years request address _/api/flexibleSearch/:searchParam_<br>
 where<br> 
 :searchParam - is film id or actor name or film produce years which you want to find<br>
-
-**<h2>Settings</h2>**
-
-All project settings save in _config_properties.json_ file in resources folder.
