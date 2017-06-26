@@ -12,48 +12,48 @@ nconf_
 
 REST API METHODS
 
-**/api/allFilms
+**/api/allFilms<br>
 /api/addFilm/:filmName/:filmYear/:filmFormat/:actors<br>
-/api/deleteFilm/:id
-/api/findFilmById/:id
-/api/findFilmByFilmName/:filmName
-/api/findFilmByActorName/:actorName
+/api/deleteFilm/:id<br>
+/api/findFilmById/:id<br>
+/api/findFilmByFilmName/:filmName<br>
+/api/findFilmByActorName/:actorName<br>
 /api/flexibleSearch/:searchParam**
 
-Support request types(GET)
-For take all films request address /api/allFilms. 
+Support request types(GET)<br>
+For take all films request address /api/allFilms.<br> 
 
-Support request types(GET/POST)
-For add new film, request address */api/addFilm/:filmName/:filmYear/:filmFormat/:actor*s
-where 
-:filmName - is movie title,
-:filmYear - is year of film production,
-:filmFormat - is movie format,
-:actors - is actor name.
+Support request types(GET/POST)<br>
+For add new film, request address */api/addFilm/:filmName/:filmYear/:filmFormat/:actors*<br>
+where<br>
+:filmName - is movie title,<br>
+:filmYear - is year of film production,<br>
+:filmFormat - is movie format,<br>
+:actors - is actor name.<br>
 
-Support request types(GET/POST)
-For delete film by film id request address _/api/deleteFilm/:id_
-where :id - is film id number which you want to delete
+Support request types(GET/POST)<br>
+For delete film by film id request address _/api/deleteFilm/:id_<br>
+where :id - is film id number which you want to delete<br>
 
-Support request types(GET)
-For find film by film id request address _/api/findFilmById/:id_
-where 
-:id - is film id number which you want to find
+Support request types(GET)<br>
+For find film by film id request address _/api/findFilmById/:id_<br>
+where<br>
+:id - is film id number which you want to find<br>
 
-Support request types(GET)
-For find film by film name request address _/api/findFilmByFilmName/:filmName_
-where 
-:filmName - is film id number which you want to find
+Support request types(GET)<br>
+For find film by film name request address _/api/findFilmByFilmName/:filmName_<br>
+where<br> 
+:filmName - is film id number which you want to find<br>
 
-Support request types(GET)
-For find film by actor name request address _/api/findFilmByActorName/:actorName_
-where 
-:actorName - is film id number which you want to find
+Support request types(GET)<br>
+For find film by actor name request address _/api/findFilmByActorName/:actorName_<br>
+where<br> 
+:actorName - is film id number which you want to find<br>
 
-Support request types(GET)
-For find film by id or actor name or film produce years request address _/api/flexibleSearch/:searchParam_
-where 
-:searchParam - is film id or actor name or film produce years which you want to find
+Support request types(GET)<br>
+For find film by id or actor name or film produce years request address _/api/flexibleSearch/:searchParam_<br>
+where<br> 
+:searchParam - is film id or actor name or film produce years which you want to find<br>
 
 **Settings**
 
