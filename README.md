@@ -1,4 +1,4 @@
-<h2>**Node JS Dependencies**
+**<h2>Node JS Dependencies</h2>**
 
 _express_<br>
 _cookie-parser_<br>
@@ -7,9 +7,9 @@ _mysql_<br>
 _nconf_<br>
 
 
-<h2>**Cinema search REST API**
+**<h2>Cinema search REST API</h2>**
 
-<h3>REST API methods
+<h3>REST API methods</h3>
 
 **/api/allFilms<br>
 /api/addFilm/:filmName/:filmYear/:filmFormat/:actors<br>
