@@ -17,15 +17,14 @@ _nconf_<br>
 
 run _createAndPopulateDB.sql_ file
 
+**<h2>Settings</h2>**
+
+All project settings save in _config_properties.json_ file in resources folder.
 
 **<h2>Cinema search REST API</h2>**
 
 <h3>REST API methods</h3>
 
-
-**<h2>Settings</h2>**
-
-All project settings save in _config_properties.json_ file in resources folder.
 
 **/api/allFilms<br>
 /api/addFilm/:filmName/:filmYear/:filmFormat/:actors<br>
