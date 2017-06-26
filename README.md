@@ -54,6 +54,6 @@ For find film by id or actor name or film produce years request address _/api/fl
 where<br> 
 :searchParam - is film id or actor name or film produce years which you want to find<br>
 
-<h2>**Settings**
+**<h2>Settings</h2>**
 
 All project settings save in _config_properties.json_ file in resources folder.
