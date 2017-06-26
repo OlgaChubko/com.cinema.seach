@@ -68,3 +68,9 @@ Support request types(GET)<br>
 For find film by id or actor name or film produce years request address _/api/flexibleSearch/:searchParam_<br>
 where<br> 
 :searchParam - is film id or actor name or film produce years which you want to find<br>
+
+**<h2>Tests</h2>**
+
+Test folder is /test
+
+restTest.js - test REST services
