@@ -1,3 +1,7 @@
+CREATE SCHEMA `cinema` DEFAULT CHARACTER SET utf8 ;
+
+USE cinema;
+
 create table cinema_archive (
   id int(5) not null auto_increment,
   name varchar(50) not null,
@@ -6,6 +10,13 @@ create table cinema_archive (
   actors varchar(2000) not null,
   primary key (id)
 );
+
+
+CREATE USER 'test_user'@'*' IDENTIFIED BY 'test_user';
+
+GRANT ALL PRIVILEGES ON cinema.* TO 'test_user'@'*';
+
+FLUSH PRIVILEGES;
 
 
 INSERT INTO cinema_archive (name, produce_year, video_format, actors)

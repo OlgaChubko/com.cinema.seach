@@ -5,10 +5,10 @@
   },
 
   "database": {
-    "dbUser": "app_user",
-    "dbPassword": "1111",
+    "dbUser": "test_user",
+    "dbPassword": "test_user",
     "dbBase": "cinema",
     "dbPort" : 3306,
-    "dbUrl": "192.168.1.5"
+    "dbUrl": "your_DB_host"
   }
 }
