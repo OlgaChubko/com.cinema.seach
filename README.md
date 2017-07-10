@@ -79,8 +79,11 @@ restTest.js - test REST services
 **<h2>Run application</h2>**
 
 Run _createAndPopulateDB.sql_ script in resources folder for create and populate test database and create test user with privileges for test DB.<br>
+
 Run npm install for install node modules from _package.json_ file<br>
+
 Set your DB host (where we create cinema schema) in _config_properties.json_<br> 
+
 Run application from project folder _"node bin\www"_
 
 
